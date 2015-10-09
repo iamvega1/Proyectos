@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Evento</title>
+	<link rel="stylesheet" type="text/css" href="simu.css">
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="micodigo.js"></script>
+	<script type="text/javascript">
+		//window.onload = function () {
+   		//	alert("cargado...");
+		//} 
+	</script>
+</head>
+<body>
+
+<div class="content">
+<h3>Computer Representation</h3>
+	<table width="800px" height="300px" border="1px">
+	<tr>
+		<td rowspan="2">
+			<div class="todo">
+				<h3>System state</h3>
+				<div class="uno">
+					<span id="status">0</span>
+					<p>----</p>
+					<p>Status</p>
+				</div>
+				<div class="uno">  
+					<p><span id="numCola">0</span></p> 
+					<p>  ----   </p>
+					<p>Number</p>
+					<p>in</p>
+					<p>queue</p>
+				</div>
+				<div class="uno" >
+					<p><span id="vector1"></span></p>
+					<br />
+					<p><span id="vector2"></span></p>
+					<p>  ----   </p>
+					<p>Times</p>
+					<p>of</p>
+					<p>Arrival</p>
+				</div>
+				<div class="uno">
+					<span class="var" id="tiempo">0</span>
+					<p>  ----   </p>
+					<p>Times</p>
+					<p>of last</p>
+					<p>event</p>
+				</div>
+			</div>
+		</td>
+		<td> <br /><br/>
+		<div class="dos">
+			<div class="tiemp">
+				<p><span class="var" id="clock">0</span></p>
+				<br />
+				<p>Clock</p>
+			</div>
+			<div class="tiemp">
+				<p>A<span id="tiempollegada">0</span></p>
+				<br />
+				<p>D<span id="tiempoespera">&infin;</span></p>
+				<br />
+				<P>Event list</P>
+			</div>
+		</div>
+		</td>
+	</tr>
+	<tr>
+		<td> <br /> <br />
+			<div class="tres">
+				<div class="static">
+					<p><span id="count">0</span></p>
+					<br />
+					<p>Number</p>
+					<p>Delayed</p>
+				</div>
+				<div class="static">
+					<p><span id="delay">0</span></p>
+					<br />
+					<p>Total</p>
+					<p>delay</p>
+				</div>
+				<div class="static">
+					<p><span id='under'>0</span></p>
+					<br />
+					<p>Area</p>
+					<p>under Q(t)</p>
+				</div>
+			</div>
+		</td>
+	</tr>
+	</table>
+	<input type="button" name="btn" value="continuar" id="btn-continuar">
+</div>
+
+</body>
+</html>

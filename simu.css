@@ -1,0 +1,60 @@
+table{
+	margin: auto;
+	position: relative;
+}
+h3{
+	text-align: center;
+}
+table .uno{
+	float: left;
+	width: 25%;
+	margin: 0 auto;
+}
+.uno span{
+	border: 1px solid;
+	padding: 5px;
+	position: relative;
+}
+.dos span{
+	border: 1px solid;
+	padding: 5px;
+	position: relative;
+}
+table .todo{
+	margin: 0 auto;
+	width: 400px;
+	height: 150px;
+	text-align: center;
+	padding: 1rem;
+}
+table div p{
+	margin: 0px;
+}
+.dos{
+	width: 200px;
+	height: 150px;
+	margin: 0 auto;
+}
+.tiemp{
+	float: left;
+	width: 50%;
+	margin-top: 40px;
+	margin: 0 auto;
+	text-align: center;
+}
+.tres{
+	width: 200px;
+	height: 150px;
+	margin: 0 auto;
+	text-align: center;
+}
+.tres .static{
+	float: left;
+	width: 33%;
+	margin-top: 0 auto;
+}
+.static span{
+	border: 1px solid;
+	padding: 5px;
+	position: relative;
+}
